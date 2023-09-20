@@ -1,0 +1,109 @@
+body {
+	font-family: Arial;
+	background-color: #e8eff6;
+	padding: 10px;
+}
+.contener {
+	box-shadow: 0 0 15px #26a2bb;
+	width: 940px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+h2 {
+	font-size: 22px;
+}
+h3 {
+	margin-top: 5px;
+}
+span {
+	color: #000000;
+	padding-left: 20px;
+}
+
+section,
+header {
+	padding: 5px 20px 15px 20px;
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 40px;
+}
+
+header ul {
+	list-style: none;
+}
+li,
+p {
+	margin-bottom: 12px;
+	line-height: 1.5;
+}
+.address-icon,
+.interest-icon {
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	padding: 8px;
+	background-color: #26a2bb;
+	vertical-align: middle;
+}
+.circle {
+	border-radius: 50%;
+}
+
+.my {
+	padding-bottom: 15px;
+}
+.hobbies {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.hobbies li {
+	width: 50%;
+	display: flex;
+}
+.hobbies p {
+	text-decoration: none;
+	text-align: justify;
+	padding-right: 20px;
+}
+p {
+	line-height: 1.5;
+	text-align: justify;
+}
+.cv-download-link {
+	border: 2px solid #26a2bb;
+	color: #000000;
+	box-shadow: 0 0 15px #26a2bb;
+	text-decoration: none;
+	padding: 10px 30px;
+	margin-left: 10px;
+	display: inline-block;
+	margin-top: 20px;
+	border-radius: 20px;
+	transition: background-color 0.3s;
+}
+.cv-download-link:hover {
+	background-color: #26a2bb;
+}
+.cv-download-link:focus {
+	outline: none;
+	background-color: #26a2bb;
+}
+.cv-download-link:active {
+	text-decoration: underline;
+}
+.clause {
+	font-size: 10px;
+	color: #1d748d;
+	/* text-align: justify; */
+}
